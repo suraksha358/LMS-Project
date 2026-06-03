@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Management System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+    <div class="logo">LMS Portal</div>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+
+        <a href="courses.html">Courses</a>
+
+        <a href="dashboard.html">Dashboard</a>
+    </div>
+
+</nav>
+
+<!-- HERO SECTION -->
+
+<section class="hero">
+
+    <div class="hero-text">
+
+        <h1>Learning Management System</h1>
+
+        <p>
+            Welcome to our Learning Management System, a platform designed to help students and professionals build their IT skills through high-quality online courses.
+
+            We offer a wide range of technology courses, including Java, Spring Boot, Web Development, Database Management, Cloud Computing, Data Structures, and more. Our goal is to provide accessible and practical learning experiences that help learners advance their careers in the IT industry.
+        </p>
+        <button onclick="goToRegister()">
+            Register Now
+        </button>
+        <button onclick="goToDashboard()">
+            Get Started
+        </button>
+
+    </div>
+
+    <div class="hero-image">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png">
+
+    </div>
+
+</section>
+
+<!-- FEATURES -->
+
+<section class="features">
+</section>
+
+<!-- STATS -->
+
+<section class="stats">
+
+    <div class="stat-box">
+        <h2>1000+</h2>
+        <p>Students</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>50+</h2>
+        <p>Courses</p>
+    </div>
+
+    <div class="stat-box">
+        <h2>500+</h2>
+        <p>Enrollments</p>
+    </div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section class="about">
+
+    <h2>About LMS</h2>
+
+    <p>
+        The Learning Management System helps educational institutions and
+        training organizations manage students, courses, and enrollments digitally.
+        The system automates administrative tasks, improves efficiency, reduces
+        manual work, and provides a centralized platform for learning management.
+    </p>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+    <p>
+        © 2026 Learning Management System | Built with Spring Boot & JavaScript
+    </p>
+
+</footer>
+
+<script>
+
+    function goToDashboard(){
+        window.location.href = "dashboard.html";
+    }
+
+</script>
+<script>
+    function goToRegister() {
+        window.location.href = "register.html";
+    }
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>LMS Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+    <div class="logo">
+        LMS Portal
+    </div>
+
+    <div class="nav-links">
+
+        <a href="index.html">Home</a>
+
+       
+
+        <a href="courses.html">Courses</a>
+
+
+
+        <a href="dashboard.html">Dashboard</a>
+
+        <a href="login.html">Login</a>
+
+    </div>
+
+</nav>
+
+
+<!-- DASHBOARD -->
+
+<div class="dashboard-page">
+
+    <h1>Learning Management Dashboard</h1>
+
+    <!-- STATS -->
+
+    <div class="stats-grid">
+
+        <div class="dashboard-card">
+
+            <h2 id="studentCount">0</h2>
+
+            <p>Total Students</p>
+
+        </div>
+
+        <div class="dashboard-card">
+
+            <h2 id="courseCount">0</h2>
+
+            <p>Total Courses</p>
+
+        </div>
+
+        <div class="dashboard-card">
+
+            <h2 id="enrollmentCount">0</h2>
+
+            <p>Total Enrollments</p>
+
+        </div>
+
+    </div>
+
+
+    <!-- RECENT STUDENTS -->
+
+    <div class="table-card">
+
+        <h2>Recent Students</h2>
+
+        <table>
+
+            <thead>
+
+            <tr>
+
+                <th>ID</th>
+
+                <th>Name</th>
+
+                <th>Email</th>
+
+            </tr>
+
+            </thead>
+
+            <tbody id="recentStudents">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+
+<script src="dashboard.js"></script>
+
+</body>
+
+</html>

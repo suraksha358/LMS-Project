@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Payment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar">
+    <div class="logo">LMS Portal</div>
+</nav>
+
+<div class="payment-container">
+
+    <h1>Select Payment Method</h1>
+
+    <div class="payment-options">
+
+        <div class="pay-card" onclick="pay('Google Pay')">
+            <img src="https://cdn-icons-png.flaticon.com/512/6124/6124998.png">
+            <p>Google Pay</p>
+        </div>
+
+        <div class="pay-card" onclick="pay('PhonePe')">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/PhonePe_Logo.svg">
+            <p>PhonePe</p>
+        </div>
+
+        <div class="pay-card" onclick="pay('Paytm')">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Paytm_logo.png">
+            <p>Paytm</p>
+        </div>
+
+    </div>
+
+    <h2 id="status"></h2>
+
+</div>
+
+<script src="payment.js"></script>
+
+</body>
+</html>
